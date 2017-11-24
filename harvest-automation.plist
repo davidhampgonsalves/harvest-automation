@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>harvest-automation</string>
+	<key>ProgramArguments</key>
+	<array>
+    <string>yarn</string>
+    <string>invoice</string>
+	</array>
+	<key>StartCalendarInterval</key>
+	<dict>
+		<key>Hour</key>
+		<integer>12</integer>
+	</dict>
+	<key>WorkingDirectory</key>
+  <string>Users/david/repos/harvest-automation/</string>
+</dict>
+</plist>

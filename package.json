@@ -1,0 +1,19 @@
+{
+  "name": "harvest-automation",
+  "version": "1.0.0",
+  "description": "geenrate invoices on harvest",
+  "main": "index.js",
+  "author": "David Hamp-Gonsalves <davidhampgonsalves@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "harvest": "^1.0.6",
+    "mailgun-js": "^0.13.1",
+    "moment": "^2.19.2",
+    "ramda": "^0.25.0",
+    "tape": "^4.8.0"
+  },
+  "scripts": {
+    "invoice": "node index.js",
+    "test": "tape tests/*.js"
+  }
+}
