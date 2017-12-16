@@ -9,7 +9,7 @@ cp config.sample.json config.json
 
 ## Schedule (OSX)
 ```
-cp harvest-automation.plist ~/Library/LaunchAgents
+sudo cp harvest-automation.plist ~/Library/LaunchAgents
 sudo chmod 600 ~/Library/LaunchAgents/harvest-automation.plist
 sudo chown root ~/Library/LaunchAgents/harvest-automation.plist
 sudo launchctl load -w ~/Library/LaunchAgents/harvest-automation.plist
