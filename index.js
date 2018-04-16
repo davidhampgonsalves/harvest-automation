@@ -10,11 +10,9 @@ const mailgunConfig = require('./mailgun_config.json');
 const harvest = new Harvest(config);
 
 const dateArg = process.argv[2];
-const now = moment();
+const now = dateArg ? moment(dateArg) : moment();
 
-if(dateArg)
-  now.date(dateArg);
-
+if(dateArg) console.log(`Using overriden date: ${now}`);
 if(!isTodayInvoiceable(now)) return console.log(`${now} is not an invoice day, doing nothing`);
 
 const start = now.clone().date(now.date() === 15 ? 1 : 16);

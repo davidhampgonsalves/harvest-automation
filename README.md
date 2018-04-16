@@ -7,13 +7,13 @@ cp config.sample.json config.json
 # Fill in your creds.
 ```
 
+## Overrides
+```
+node index.js 2017-12-13
+```
+
 ## Schedule (OSX)
-```
-sudo cp harvest-automation.plist ~/Library/LaunchAgents
-sudo chmod 600 ~/Library/LaunchAgents/harvest-automation.plist
-sudo chown root ~/Library/LaunchAgents/harvest-automation.plist
-sudo launchctl load -w ~/Library/LaunchAgents/harvest-automation.plist
-```
+Skip fighting with launchd and just setup via: http://launched.zerowidth.com/
 
 __It also can serve as an example of how you can create an invoice using their painful v1 API.__
 
