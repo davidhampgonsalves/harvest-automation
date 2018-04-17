@@ -8,8 +8,12 @@
 	<array>
 		<string>sh</string>
 		<string>-c</string>
-		<string>node /Users/davidhamp-gonsalves/repos/harvest-automation/index.js</string>
+		<string>/usr/local/bin/node /Users/davidhamp-gonsalves/repos/harvest-automation/index.js</string>
 	</array>
+	<key>StandardOutPath</key>
+	<string>/Users/davidhamp-gonsalves/repos/harvest-automation/harvest-automation.log</string>
+	<key>StandardErrorPath</key>
+	<string>/Users/davidhamp-gonsalves/repos/harvest-automation/harvest-automation.log</string>
 	<key>StartCalendarInterval</key>
 	<dict>
 		<key>Hour</key>

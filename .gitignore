@@ -2,3 +2,4 @@ config.json
 mailgun_config.json
 node_modules
 yarn-error.log
+harvest-automation.log
